@@ -1,0 +1,15 @@
+Developer Contact Details:
+--------------------------
+Our Team:
+
+Tirumala Saiteja Goruganthu (016707210)
+Harish Marepalli (016707314)
+Venkata Subramanya Sri Raviraj Indraganti (016254823)
+
+tirumalasaiteja.goruganthu@sjsu.edu
+harish.marepalli@sjsu.edu
+venkatasubramanyasriraviraj.indraganti@sjsu.edu
+
+This website is made as a final project for CMPE 272 (Fall 2022) under Prof. Richard Sinn at San Jose State University.
+
+The content on this website is NOT real or functional.

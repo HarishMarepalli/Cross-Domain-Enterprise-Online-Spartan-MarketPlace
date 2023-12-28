@@ -1,0 +1,796 @@
+body, .aboutPage, .contactsPage, .productsPage, .newsPage, .securePage, .trackPage
+{
+    /*background: none;*/
+    /*background: url(../img/page_background.jpeg) no-repeat center center fixed;*/
+    /*background: #000;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*font-family: 'Roboto Mono', monospace;*/
+    padding-top: 130px;
+}
+
+video#myVideo
+{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+div.introWrapper
+{
+    top: 22em;
+    left: 25em;
+}
+
+/* Navigation Bar Styles */
+nav.navbar
+{
+    background: #154c79;
+}
+
+div.container-fluid
+{
+    flex-direction: column;
+}
+
+nav.navbar-brand
+{
+    margin-bottom: 1em;
+}
+
+nav.navbar .nav-item
+{
+    padding: 0 20px;
+}
+
+nav.navbar .nav-item .nav-link
+{
+    color: #fff;
+}
+
+/* Home page CSS */
+div.intro
+{
+    margin: 5em;
+    background: #154c79;
+    border-radius: 2em;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+div.introtext1_wrapper, div.introtext2_wrapper, div.exploreContainer, div.introtext3_wrapper
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.introtext1_wrapper p.introtext1
+{
+    font-size: 3em;
+    color: #fff;
+}
+
+div.introtext2_wrapper p.introtext2
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 5em;
+    color: #fff;
+}
+
+div.introtext3_wrapper
+{
+    margin-bottom: 2em;
+}
+
+div.introtext3_wrapper p.introtext3
+{
+    font-size: 24px;
+    color: #fff;
+}
+
+div.exploreContainer .exploreBtn, div.exploreContainer .loginBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background: aliceblue;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #000;
+    margin: 0 1em;
+    width: 11em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.whoContainer
+{
+    display: flex;
+    margin: 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form.myForm
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1em;
+    width: 30em;
+    border-radius: 1em;
+    background: #154c79;
+    margin-bottom: 3em;
+}
+
+.myForm div.formIntroContainer
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.myForm div.myFormContainer label.outsideLabel
+{
+    color: #fff;
+}
+
+div.formIntroContainer .formIntro
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.formIntroContainer .formIntroSmall
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.myFormContainer
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+div.myFormContainer .form-floating
+{
+    margin-bottom: 1em;
+}
+
+div.signUpBtnContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.signUpBtnContainer .signUpBtn
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background: #154c79;
+}
+
+div.whoTextContainer
+{
+    font-size: 17px;
+    background: #154c79;
+    border-radius: 45px;
+    padding: 2em;
+    color: #fff;
+    margin: 2em;
+    margin-left: 0;
+}
+
+div.parentImgContainer
+{
+    background: url(../img/what_we_recycle.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: top;
+    height: 25em;
+}
+
+div.aboutIntroContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15em;
+    left: 60em;
+    background: #154c79;
+    border-radius: 45px;
+    padding: 2em;
+    color: #fff;
+}
+
+/* div.container
+{
+    margin-top: 8em;
+} */
+
+div.col-xl-4
+{
+    margin-bottom: 2em;
+}
+
+.aboutContainer div.card .card-img-top
+{
+    height: 350px;
+}
+
+div.modal div.modal-body div.loginContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+div.modal div.modal-body div.loginContainer .loginSubmitBtn
+{
+    width: 6em;
+    border-radius: 10px;
+    background: #154c79;
+    border: none;
+    height: 3em;
+    color: #fff;
+}
+
+/* Secure Page CSS */
+div.secureContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.secureContainer .card-body .custPhone, .secureContainer .card-body .custStatus
+{
+    font-weight: bold;
+}
+
+.secureContainer .row
+{
+    padding: 1em;
+}
+
+.secureContainer .row .card
+{
+    margin: 1em;
+    padding: 1em;
+    width: 31% !important;
+    box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -webkit-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+    -moz-box-shadow: 10px 10px 6px 0px rgba(21,76,121,0.75);
+}
+
+.secureContainer .row .card .card-img-top
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 300px;
+}
+
+.secureContainer .row .card .card-text
+{
+    margin-bottom: 10px;
+}
+
+.secureContainer .actionBtnContainer
+{
+    margin-top: 2em;
+}
+
+.secureContainer .actionBtnContainer form
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secureContainer .simpleText
+{
+    font-size: 20px;
+}
+
+.viewContainer1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0 !important;
+    margin-bottom: 2em;
+}
+
+.viewContainer1 .inProcessBtn, .viewContainer1 .acceptedBtn, .viewContainer1 .rejectedBtn, .viewContainer1 .completedBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background: #154c79;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footerContainer
+{
+    background: #154c79;
+    padding: 2em;
+}
+
+.footerContainer .container-fluid
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .container-fluid .footerImage
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer .footerContentContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContainer .footerContentContainer .locationContainer
+{
+    color: #fff;
+}
+
+.footerContainer .footerContentContainer .footerContacts
+{
+    color: #fff;
+}
+
+.footerContainer .footerContentContainer .locationContainer p
+{
+    margin: 0;
+}
+
+.footerContainer .footerContentContainer .footerContacts p
+{
+    margin: 0;
+}
+
+/* Products Page CSS */
+.productsPage .container
+{
+    padding: 1em;
+}
+
+.productsPage .container .row
+{
+    justify-content: center;
+}
+
+.productsPage .container .card
+{
+    width: 400px;
+    margin: 1em;
+    padding: 0;
+    box-shadow: 7px 11px 4px -2px rgba(255,218,183,0.4);
+}
+
+.productsPage .container .card-img-top
+{
+    height: 15em;
+}
+
+.productsPage .container .card-body
+{
+    font-family: 'Noto Sans SC', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.productsPage .container .card-title
+{
+    text-align: center;
+}
+
+.productsPage .container .knowMoreBtn
+{
+    display: flex;
+}
+
+.productsPage .container .productsIntro
+{
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/* All Products Page CSS */
+.topContainer
+{
+    background: #fabb78;
+    padding: 1em;
+    display: flex;
+}
+
+.topContainer .longDescContainer
+{
+    padding: 1em;
+    text-align: justify;
+    padding-left: 2em;
+    width: 70%;
+}
+
+.topContainer .longDescContainer .Desctext
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.topContainer .longDescContainer .Desctext, .topContainer .longDescContainer .longDesc
+{
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#last5PrevModal .container
+{
+    margin: 0;
+    padding: 1em;
+}
+
+.viewContainer1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.viewContainer1 .prev5ViewBtn, .viewContainer1 .yourTop5ViewBtn, .viewContainer1 .globalTop5ViewBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background-image: linear-gradient(to right, orange, yellow);
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #000;
+    margin: 0 1em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.shortDescText, .priceText
+{
+    margin-top: 20px;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.ratingContainer .checked, .reviewContainer .checked
+{
+    color: #f2e74e;
+    text-shadow: 0 0 3px #000;
+}
+
+.ratingContainer .unchecked, .reviewContainer .unchecked
+{
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+
+.topContainer #myCarousel
+{
+    width: 500px;
+}
+
+.bottomContainer
+{
+    padding: 1em;
+    background: antiquewhite;
+}
+
+.topReviewContainer
+{
+    padding: 1em;
+    background: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 1em
+}
+
+.sidebar 
+{
+    position: absolute;
+    z-index: 100;
+    background: #154c79;
+    width: fit-content;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.sideNavActive
+{
+    display: none;
+}
+
+.closeBtnContainer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.filterText
+{
+    color: #fff;
+}
+
+.close-btn
+{
+    border-radius: 50%;
+    border: none;
+    background: azure;
+    width: 35px;
+}
+
+.fa-xmark
+{
+    font-size: 25px;
+    color: #154c79;
+}
+
+li.itemList {
+    background: aliceblue;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 15px;
+    margin-right: 1em;
+}
+
+a.item {
+    color: #154c79;
+    text-decoration: none;
+}
+
+.dropdown-menu1
+{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+hr
+{
+    color: azure;
+    opacity: 1;
+}
+
+/* width */
+.dropdown-menu1::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .dropdown-menu1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .dropdown-menu1::-webkit-scrollbar-thumb {
+    background: azure; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .dropdown-menu1::-webkit-scrollbar-thumb:hover {
+    background: azure; 
+  }
+
+  .containerHeader
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviewContainer
+  {
+    display: flex;
+    align-items: center;
+  }
+
+  .reviewContainer .checked, .reviewContainer .unchecked
+  {
+    font-size: 22px;
+  }
+
+  .loginHomePage
+  {
+    background: #154c79;
+    padding: 1em;
+    margin: 1em;
+    margin: auto;
+    margin-top: 1em;
+    width: 40%;
+    border-radius: 15px;
+  }
+
+  .psecureWelcome
+  {
+    color: #fff;
+    text-align: center;
+  }
+
+  .psecureText
+  {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  .homebtnsContainer
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .loginHomeBtn1, .loginHomeBtn2, .loginHomeBtn3 , .loginHomeBtn4
+  {
+    border-radius: 10px;
+    padding: 15px;
+    background: azure;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #154c79;
+    margin: 0 1em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+
+.psecurePage .container
+{
+    padding: 1em;
+}
+
+.psecurePage .container .row
+{
+    justify-content: center;
+}
+
+.psecurePage .container .card
+{
+    width: 400px;
+    margin: 1em;
+    padding: 0;
+    box-shadow: 7px 11px 4px -2px rgba(255,218,183,0.4);
+}
+
+.psecurePage .container .card-img-top
+{
+    height: 15em;
+}
+
+.psecurePage .container .card-body
+{
+    font-family: 'Noto Sans SC', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.psecurePage .container .card-title
+{
+    text-align: center;
+}
+
+.psecurePage .container .knowMoreBtn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.psecurePage .container .productsIntro
+{
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.featured-work
+{
+    background: #154c79;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 12px;
+    text-align: justify;
+    margin-bottom: 6em;
+}
+
+.featured-work p
+{
+    color: #fff;
+    font-size: 17px;
+}
+
+.newsContainer
+{
+    background: #154c79;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 12px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.newsText1
+{
+    font-size: 30px;
+    color: #fff;
+}
+
+.newsText2
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.newsContainer .exploreBtn
+{
+    border-radius: 10px;
+    padding: 15px;
+    background: #154c79;
+    border: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1em;
+    width: 11em;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.createAccText
+{
+    text-align: center;
+}
+
+.main-contacts
+{
+    background: #154c79;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 12px;
+    width: 40%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    color: #fff;
+}
